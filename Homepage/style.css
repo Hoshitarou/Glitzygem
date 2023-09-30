@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Inknut+Antiqua&family=Inria+Serif:wght@300;400;700&family=Kaisei+Tokumin&display=swap');
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+}
+
+body{
+    font-family:'Inria Serif', serif ;
+    box-sizing: border-box;
+    background-color:#fcfcfc;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    padding: 1rem 6vw;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    
+}
+
+.logo{  
+    display: flex;
+    font-family:'Inria Serif', serif ;
+    justify-content: center;
+    align-items: center;
+    color: #726B53; 
+    text-shadow: 2px 2px 1px rgb(192, 190, 190); 
+}
+
+
+.navlist{
+    display: flex;
+    padding: 0;
+}
+
+.navitem{
+    display: flex;
+    list-style: none;
+    margin: 2rem;
+    font-weight: 700;
+    font-family: 'Inknut Antiqua', serif;
+    color: #726B53;
+    text-shadow: 2px 2px 1px rgb(192, 190, 190);
+    margin-right: 0;
+}
+
+.navitem a{
+    text-decoration: none;
+    font-family: 'Inknut Antiqua', serif;
+    color: #726B53;
+}
+
+.navitem:hover:not(.current){
+    transform: scale(1.1) translateX(-5px);
+    text-shadow: 5px 5px 2px rgba(192, 190, 190, 0.356);
+}
+
+.navitem.current{
+    color: rgb(32, 32, 32);
+    cursor: default;
+}
+
+.row1{
+    display: flex;
+    background: #E8E4DC;
+    height: 488px;
+    padding: 0rem calc((100vw - 1300px) /2);
+}
+
+.content1{
+    display: grid;
+    justify-content: left;
+    font-size: 64px;
+    text-overflow: ellipsis;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family:'Inria Serif', serif ;
+    color: #726B53;
+    padding-left: 70px;
+}
+
+.newRelease{
+    font-size: 15px;
+    padding: 0px 50px;
+}
+
+.ring{
+    width: 420px;
+    height: 399px;
+    flex-shrink: 0;
+    position: absolute;
+    padding: 3px 600px;
+}
+
+.btn{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 14px;
+    color: #726b53;
+    background-color: #726b5300;
+    padding: 10px 30px;
+    border: solid #726b53 2px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 50px;
+    transition : 361ms;
+    cursor: pointer;
+    position: absolute;
+    top: 520px;
+    left: 832px;     
+}
+
+.btn:hover{
+   
+    transition : 361ms;
+    padding: 10px 47px;
+    transform : translateY(-9px);
+    background-color: #726b53;
+    color: #ffffff;
+    border: solid 2px #726b53;
+}
+
+.flower1{
+    position: absolute;
+    height: 488px;
+    width: 426px;
+    padding-left: 62%;
+}
+
+.hands{
+    display: flex;
+    height: 380px;
+    padding: 0rem calc((100vw - 1300px) /2);
+    position: absolute;
+}
+
+.handring{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    justify-content: center;
+    padding:15px 550px;
+}
+
+.hands p{
+    color: #726B53;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.girl{
+    width: 305px;
+    height: 500px;
+    flex-shrink: 0;
+    position: absolute;
+    padding: 400px 120px;
+}
+
+.ring2{
+    width: 345px;
+    height: 290px;
+    flex-shrink: 0;
+    position: absolute;
+    padding: 450px 460px;
+}
+
+.ring3{
+    width: 412px;
+    height: 433px;
+    flex-shrink: 0;
+    position: absolute;
+    padding: 550px 850px;
+}
+
+.elegance{
+    color: #726B53;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inika', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    padding: 889px 120px;;
+    word-spacing: 199px;
+}
+
+.quality{
+    color: #726B53;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inika', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    padding: 400px 460px;
+    word-spacing: 250px;
+}
+
+.legacy{
+    color: #726B53;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inika', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    padding: 400px 460px;
+    word-spacing: 100px;
+    padding: 500px 850px;
+}
+
+.leg2{
+    color: #726B53;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inika', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    padding: 400px 460px;
+    word-spacing: 100px;
+    padding: 500px 1200px;
+}
+
+.cont2{
+    color: #726B53;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inknut Antiqua',serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    padding: 750px 490px;
+    white-space: nowrap;
+}
+
+.cont3{
+    display: flex;
+    height: 500px;
+    padding: 100px 0px;
+    position: absolute;
+}
+
+.backdrop{
+    position: static;
+    width: 920px;
+    height: 450px;
+    padding: 950px 210px;
+}
+
+.feature{
+    position: absolute;
+    padding: 1020px 600px;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inika',serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.bloom{
+    position: absolute;
+    padding: 1040px 390px;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inria Serif',serif;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contents2{
+    position: absolute;
+    padding: 1145px 480px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Kaisei Tokumin',serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cont3 a{
+    position: absolute;
+    padding: 1320px 610px;
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cont4{
+    justify-content: center;
+    display: flex;
+    height: 500px;
+    padding: 1550px 120px;
+    position: absolute;
+}
+
+.rectangle{
+    display: flex;
+    width: 1200px;
+    height: 460px;
+    background:#E8E4DC;
+}
+
+.contents3{
+    display: flex;
+    overflow: hidden;
+    color: #726B53;
+    text-overflow: ellipsis;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inria Serif', serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    padding: 0px 50px;
+}
+
+.feature2{
+    display:flex;
+    color: #726B53;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inika',serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    padding: 50px 600px;
+}
+
+.contents4{
+    display: flex;
+    color: #726B53;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    padding: 120px 600px;
+    line-height: 45px;
+    white-space: nowrap;
+}
+
+.cont4 button{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 14px;
+    color: #726b53;
+    background-color: #726b5300;
+    padding: 10px 30px;
+    border: solid #726b53 2px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 50px;
+    transition : 361ms;
+    cursor: pointer;
+    position: absolute;
+    top: 1900px;
+    left: 210px;
+}
+
+.cont4 button:hover{
+    transition : 361ms;
+    padding: 10px 47px;
+    transform : translateY(-9px);
+    background-color: #726b53;
+    color: #ffffff;
+    border: solid 2px #726b53;
+}
+
+.cont5{
+    display: flex;
+    height: 500px;
+    padding: 2050px 140px;
+    position: absolute;
+    width: 100%;
+   
+}
+
+.er{
+    border: 1px solid #726B53;
+    width: 300px;
+    height: 300px;
+    margin: 21px;
+}
+
+.mr{
+    border: 1px solid #726B53;
+    width: 400px;
+    height: 300px; 
+    margin: 21px;
+}
+
+.lb{
+    width: 300px;
+    height: 300px;      
+    background: transparent;
+    border: 1px solid #726B53;
+    margin: 21px;
+}
+
+.titles{
+    display: flex;
+    height: 300px;
+    padding: 2380px 170px;
+    position: absolute;
+}
+
+.name1{
+    color: #726B53;
+    font-family: 'Inika',serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.name2{
+    color: #726B53;
+    font-family: 'Inika',serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    padding: 0 180px;
+    white-space: nowrap;
+}
+
+.name3{
+    color: #726B53;
+    font-family: 'Inika',serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    padding: 0 630px;
+    white-space: nowrap;
+}
+
+.price1{
+    color: #726B53;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inknut Antiqua',serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.price2{
+    color: #726B53;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inknut Antiqua',serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    padding: 59px 180px;
+    white-space: nowrap;
+}
+
+.price3{
+    color: #726B53;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inknut Antiqua',serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    padding: 80px 630px;
+    white-space: nowrap;
+}
+
+.footer{
+    display: flex;
+    height: 500px;
+    padding: 2570px 0px;
+    position: absolute;
+    width: 100%;
+}
+.rectangle2{
+    display: flex;
+    width: 100%;
+    height:420px; 
+    background: #726B53; 
+}
+
+.fb{
+    display: flex;
+    position: absolute;
+    padding: 250px 1000px;
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+}
+
+.ig{
+    display: flex;
+    position: absolute;
+    padding: 250px 1070px;
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+}
+
+.twt{
+    display: flex;
+    position: absolute;
+    padding: 250px 1140px;
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+}
+
+.logo1{
+    overflow: hidden;
+    color: #E8E4DC;
+    text-overflow: ellipsis;
+    font-family: 'Inria Serif', serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    padding: 40px 40px;
+}
+
+.sched{
+    color: #BDB7A4;
+    font-family: 'Inknut Antiqua', serif;   
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    padding: 140px 40px;
+}
+
+.privacy{
+    color: #E8E4DC;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    padding: 290px 40px ;
+}
+
+.contact{
+    color: #E8E4DC;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    padding: 60px 1130px;
+    white-space: nowrap;
+}
+
+.add{
+    color: #E8E4DC;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    padding: 110px 1050px;
+    white-space: nowrap;
+    text-align: right;
+}
